@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 99vw;
+    height: 15vh;
+    background-color: black;
+}
+.header h1{
+    color:white;
+    display:inline-block;
+    text-transform: capitalize;
+    float: left;
+    padding-left: 2rem;
+    line-height: 15vh;
+}
+.header a{
+    color:blue;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 15px;
+    float: right;
+    padding-right: 1rem;
+    margin-right: 20px;
+    line-height: 15vh;
+}
+.header a:hover{
+    color:tomato;
+    border-bottom: tomato;
+}
+
+.home{
+    width: 99vw;
+    height: 83vh;
+    background-image: url(pro\ 2.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.home h1{
+    color:white;
+    display: inline-block;
+    padding-left: 18rem;
+    text-transform: capitalize;
+    line-height: 50vh;
+}
+.about{
+    width: 99vw;
+    height: 110vh;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 3rem;
+}
+.about a{
+    color: black;
+}
+.about a:hover{
+    color: darkturquoise;
+}
+.about img{
+    width: 25vw;
+    height: 60vh;
+}
+
+.services{
+    width: 99vw;
+    height: 110vh;
+    background-color: grey;
+    text-align: center;
+    padding: 3rem;
+}
+.services .col:hover{
+    color:tomato;
+}
+
+.skills{
+    width: 99vw;
+    height: 100vh;
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 3rem;
+}
+.skills p{
+    text-align: left;
+    text-decoration: none;
+}
+
+
+.pricing{
+    width: 99vw;
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    padding: 3rem;
+}
+.pricing a:hover{
+    background-color:violet;
+}
+.contect{
+    width: 99vw;
+    height: 100vh;
+    background-color:blanchedalmond;
+    padding: 3rem;
+}
+.contect h1{
+    text-align: center;
+}
+.contect hr{
+    width: 15vw;
+    height: 1vh;
+    color:black;
+    margin-left: 490px;
+}
+.services hr{
+    width: 15vw;
+    height: 1vh;
+    color:crimson;
+    margin-left: 490px;
+}
+.skills hr{
+    width: 12vw;
+    height: 1vh;
+    color:black;
+    margin-left: 510px;
+}
+.about hr{
+    width: 13vw;
+    height: 1vh;
+    color:black;
+    margin-left: 500px;
+}
+.btn{
+    border: darkorchid solid 1px;
+    margin-left: 25rem;
+}
+.btn:hover{
+    background-color:darkslateblue;
+}
+
+.footer{
+    width: 99vw;
+    height: 10vh;
+    background-color: gray;
+}
+.footer a{
+    color: white;
+    display:inline-block;
+    float: left;
+    padding-left: 2rem;
+    line-height: 10vh;
+}
+.footer a:hover{
+    color: darkturquoise;
+}
+.footer h6{
+    color:blue;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    float: right;
+    padding-right: 2rem;
+}
+.footer h6:hover{
+    color:red;
+}
+
